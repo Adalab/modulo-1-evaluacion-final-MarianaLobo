@@ -1,15 +1,14 @@
-body {
-     height: 100%;   
-}
+
 
 .header {
-        height: 100vh;
-        background-image: url("../images/cover.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    
+    height: 100vh;
+    background-image: url("../images/cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
        
         &-nav {
             background-color: $color-orange;
@@ -17,15 +16,15 @@ body {
             height: 37px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            transform: none; 
+           
         } 
         
     &-container-text {
-        height: 23rem;
+        width: 25rem;
+        height: 18rem;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-around;
         align-items: center;
     
     }    
@@ -59,11 +58,5 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    &-button-icon {
-        
-    }
-   
-    
     
 }
