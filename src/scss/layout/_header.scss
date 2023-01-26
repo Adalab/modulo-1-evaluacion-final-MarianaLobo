@@ -3,33 +3,52 @@ body {
 }
 
 .header {
-        height: 100vh; 
+        height: 100vh;
         background-image: url("../images/cover.jpeg");
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
-        /*background-position: left;*/
+        background-position: -17rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
        
+        &-nav {
+            background-color: $color-orange;
+            width: 34px;
+            height: 37px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: none; 
+        } 
+        
+    &-container-text {
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }    
 
     &-title {
         font-family: $font-titles;
         color: $color-wite;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.9rem;
         text-align: center;
+        line-height: 3rem;
       
     }
 
-    &-nav {
-        background-color: $color-orange;
-        width: 34px;
-        height: 37px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: none; 
+    &-text {
+        font-family: $font-text;
+        color: $color-wite;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 4rem 0 2.6rem;
+        line-height: 1.3rem;
+       
     }
    
     
