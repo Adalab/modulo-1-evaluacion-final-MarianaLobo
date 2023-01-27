@@ -1,0 +1,58 @@
+.section1 {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding-top: 2rem;
+
+    &-article {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 1rem 0 2.3rem;
+        gap: 0.8rem
+        
+    }
+   
+    &-article-small {
+        color: $color-orange;
+        font-family: $font-text;
+        font-size: 0.8rem;
+    }
+    &-title {
+        font-family: $font-titles;
+        text-transform: capitalize;
+        font-size: 1.7rem;   
+    }
+    &-text {
+        color: $color-grey-dark;
+        font-family: $font-text;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    &-container-button {
+        margin-left: 2rem;
+        margin-top: 0.5rem ;
+
+    }
+
+    &-button {
+        width: 8.6rem;
+        height: 2.3rem;
+        background-color: $color-wite;
+        border-radius: 2rem;
+        border: 0.1rem solid $color-orange;
+        color: $color-orange;
+        font-family: $font-text;
+        text-transform: capitalize;
+        font-size: medium;
+    }
+
+   
+}
