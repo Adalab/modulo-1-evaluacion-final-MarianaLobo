@@ -1,2 +1,49 @@
 .footer {
+height: 80vh;
+background-color: $color-grey-dark;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+
+&-button {
+    background-color: $color-wite;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+&-menu-sections {
+    font-family: $font-text;
+    font-size: 1.6rem;
+    line-height: 3rem;;
+    text-align: center; 
+    margin-top: 6.5rem;
+}
+&-menu-links {
+    font-family: $font-text;
+    font-size: 1.6rem;
+    line-height: 3rem;;
+    text-align: center; 
+}
+
+
+&-link {
+    text-decoration: none;
+    color: $color-wite;
+}
+
+&-text {
+    font-family: $font-text;
+    font-size: 1.4rem;
+    color: $color-wite;
+    text-align: center;
+    line-height: 3rem;
+}
 }
