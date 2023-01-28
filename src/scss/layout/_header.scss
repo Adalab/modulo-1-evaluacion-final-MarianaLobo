@@ -11,6 +11,10 @@
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    @media all and(min-width: 768px){
+        background-size: cover;
+        background-position: 10%;
+    }
   
 &-nav {
     background-color: $color-orange;
@@ -22,6 +26,10 @@
     position: fixed;
     top: 0;
     left: 0; 
+    @media all and(min-width: 768px){
+        width: 41.6px;
+        height: 44px;
+    }
 } 
         
 &-container-text {
@@ -33,6 +41,12 @@
     justify-content: flex-end;
     align-items: center;
     gap: 0.2rem;
+    @media all and(min-width: 768px){
+        width: 68rem;
+        height: 15vh;
+        gap: 1.5rem;
+    }
+
 }    
 
 &-title {
@@ -42,6 +56,10 @@
     font-size: 3rem;
     text-align: center;
     line-height: 5rem;  
+    @media all and(min-width: 768px){
+        font-size: 7.5rem;
+        line-height: 10rem; 
+    }
 }
 
 &-text {
@@ -49,7 +67,12 @@
     color: $color-wite;
     font-size: 1.6rem;
     text-align: center;
-    line-height: 1.9rem;      
+    line-height: 1.9rem;  
+    @media all and(min-width: 768px){
+        font-size: 2.4rem;
+        padding: 0 10rem 0 10rem;
+        line-height: 2.8rem;  
+    }    
 }
 
 &-button {
@@ -61,5 +84,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media all and(min-width: 768px){
+        width: 4.25rem;
+        height: 4.5rem;
+
+    }
 }   
 }
