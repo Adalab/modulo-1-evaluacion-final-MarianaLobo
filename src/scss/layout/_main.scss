@@ -68,7 +68,7 @@
     grid-template-rows: repeat(5, 11rem);
     text-align: center;
      @media all and(min-width:768px) {
-        grid-template-columns: 1fr 20rem 1fr; 
+        grid-template-columns: 1fr (3, 20rem) 1fr; 
         grid-template-rows: repeat(3, 12rem);
     } 
    
@@ -81,12 +81,16 @@
          }
     }
 
+
+
     p {
+       
         font-family: $font-text;
         font-size: 1.8rem;
         line-height: 3rem;
         @media all and(min-width:768px){
             font-size: 2rem;
+           
          }
     }
    
