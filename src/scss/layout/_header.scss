@@ -1,65 +1,65 @@
+/** HEADER **/
 
 .header {
-    
     height: 100vh;
-    background-image: url("../images/cover.jpeg");
-    background-size: cover;
+    background-image: url(../images/cover.jpeg); 
     background-repeat: no-repeat;
-    /*display: flex;
+    background-size: cover;
+    background-position: 47%;
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;*/
-   
- 
-     
-    &-nav {
-        background-color: $color-orange;
-        width: 34px;
-        height: 37px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-       
-     } 
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  
+&-nav {
+    background-color: $color-orange;
+    width: 34px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0; 
+} 
         
-    &-container-text {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 1rem;
-        padding-bottom: 1rem;
-    }    
+&-container-text {
+    width: 27rem;
+    height: 15vh;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+}    
 
-    &-title {
-        width: 20rem;
-        font-family: $font-titles;
-        color: $color-wite;
-        text-transform: uppercase;
-        font-size: 1.9rem;
-        text-align: center;
-        line-height: 3rem;  
-    }
+&-title {
+    font-family: $font-titles;
+    color: $color-wite;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 5rem;  
+}
 
-    &-text {
-        width: 20rem;
-        font-family: $font-text;
-        color: $color-wite;
-        font-size: 1rem;
-        text-align: center;
-        padding: 0 2rem 0 0;
-        line-height: 1.3rem; 
-    }
+&-text {
+    font-family: $font-text;
+    color: $color-wite;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.9rem;      
+}
 
-    &-button {
-        background-color: $color-wite;
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+&-button {
+    background-color: $color-wite;
+    width: 3.79rem;
+    height: 3.57rem;
+    margin-bottom: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
 }
