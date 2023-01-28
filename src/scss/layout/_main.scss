@@ -22,13 +22,19 @@
     &-article-small {
         color: $color-orange;
         font-family: $font-text;
-        font-size: 1.4rem;  
+        font-size: 1.4rem; 
+        @media all and(min-width:768px) {
+            font-size: 1.6rem;
+        } 
     }
 
     &-title {
         font-family: $font-titles;
         text-transform: capitalize;
-        font-size: 2.4rem;  
+        font-size: 2.4rem; 
+         @media all and(min-width:768px) {
+            font-size: 3.2rem;
+        }  
     }
 
     &-text {
@@ -36,6 +42,9 @@
         font-family: $font-text;
         font-size: 1.8rem;
         line-height: 3rem;
+         @media all and(min-width:768px) {
+            font-size: 2rem;
+        } 
     }
 
     &-button {
@@ -57,38 +66,62 @@
     background-color: $color-wite-two;
     display: grid;
     grid-template-columns: 1fr 20rem 1fr; 
-    grid-template-rows:  repeat(5, 11rem);
+    grid-template-rows: repeat(5, 11rem);
     text-align: center;
+     @media all and(min-width:768px) {
+        grid-template-columns: 1fr 20rem 1fr; 
+        grid-template-rows: repeat(3, 12rem);
+    } 
    
     h3 {
         font-family: $font-titles;
         font-size: 1.8rem;
         margin-bottom: 1rem;
+        @media all and(min-width:768px){
+           font-size: 2.4rem;
+         }
     }
 
     p {
         font-family: $font-text;
         font-size: 1.8rem;
         line-height: 3rem;
+        @media all and(min-width:768px){
+            font-size: 2rem;
+         }
     }
    
     &-title {
         grid-column: 2 / 3;
         margin-top: 2.9rem;
         font-family: $font-titles;
-        font-size: 2rem ;   
+        font-size: 2rem;
+        @media all and(min-width:768px){
+            grid-column: 1 / 4;
+            font-size: 2.8rem;
+         }   
     }
 
     &-article1 {
         grid-column: 2 / 3; 
+         @media all and(min-width:768px){
+            grid-column: 1 / 2; 
+         }
     }
 
     &-article2 {
-        grid-column: 2 / 3;   
+        grid-column: 2 / 3;
+        @media all and(min-width:768px){
+            grid-column: 2 / 3; 
+         }
+           
     }
 
     &-article3 {
         grid-column: 2 / 3;
+        @media all and(min-width:768px){
+            grid-column: 3 / 4; 
+         }
     } 
 
     &-container-button {
@@ -107,7 +140,10 @@
         font-family: $font-text;
         text-transform: capitalize;
         font-size: 2rem;
-        margin-bottom: 4rem;   
+        margin-bottom: 4rem; 
+        @media all and(min-width:768px){
+            margin-top: 2.5rem; 
+         }  
     }
 }
 
