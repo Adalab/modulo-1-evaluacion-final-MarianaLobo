@@ -1,3 +1,4 @@
+/** FOOTER **/
 .footer {
 height: 100%;
 background-color: $color-grey-dark;
@@ -14,12 +15,13 @@ align-items: center;
     } 
  @media all and(min-width:1200px){
         padding-bottom: 2rem;
-     }       
+     }  
 
+/** BUTTON **/
 &-button {
     position: relative;
     margin-top: -20px;
-    background-color: $color-wite;
+    background-color: $color-white;
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
@@ -33,11 +35,12 @@ align-items: center;
         margin-top: -210px;   
     }
 }
+
 &-button:hover {
     transform: translateY(-5px);
      }
 
-
+/** NAV **/
 &-menu-sections {
     font-family: $font-text;
     font-size: 1.6rem;
@@ -50,8 +53,8 @@ align-items: center;
     @media all and(min-width:1200px){
         margin-top: 4.5rem;
     }
-
 }
+
 &-menu-links {
     font-family: $font-text;
     font-size: 1.6rem;
@@ -61,23 +64,21 @@ align-items: center;
     @media all and(min-width:768px){
         text-align: left;
         margin-top: 1rem;
-
     }
     @media all and(min-width:1200px){
         margin-top: 0rem;
     }
 }
 
-
 &-link {
     text-decoration: none;
-    color: $color-wite;
+    color: $color-white;
 }
 
 &-text {
     font-family: $font-text;
     font-size: 1.4rem;
-    color: $color-wite;
+    color: $color-white;
     text-align: center;
     line-height: 3rem;
     margin-top: 3.2rem;
@@ -91,5 +92,4 @@ align-items: center;
         margin-top: 0rem;
     }
 }
-
 }

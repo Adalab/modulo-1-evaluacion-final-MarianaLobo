@@ -15,7 +15,8 @@
         background-size: cover;
         background-position: 10%;
     }
-  
+ 
+/** NAV **/
 &-nav {
     background-color: $color-orange;
     width: 34px;
@@ -31,7 +32,8 @@
         height: 44px;
     }
 } 
-        
+
+/** TEXT **/
 &-container-text {
     width: 27rem;
     height: 15vh;
@@ -55,7 +57,7 @@
 
 &-title {
     font-family: $font-titles;
-    color: $color-wite;
+    color: $color-white;
     text-transform: uppercase;
     font-size: 3rem;
     text-align: center;
@@ -71,7 +73,7 @@
 
 &-text {
     font-family: $font-text;
-    color: $color-wite;
+    color: $color-white;
     font-size: 1.6rem;
     text-align: center;
     line-height: 1.9rem;  
@@ -82,8 +84,9 @@
     }    
 }
 
+/** BUTTON **/
 &-button {
-    background-color: $color-wite;
+    background-color: $color-white;
     width: 3.79rem;
     height: 3.57rem;
     margin-bottom: 4rem;
