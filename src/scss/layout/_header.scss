@@ -46,6 +46,10 @@
         height: 15vh;
         gap: 1.5rem;
     }
+    @media all and(min-width: 1200px){
+        width: 90rem;
+        gap: 2.5rem;
+    }
 
 }    
 
@@ -59,6 +63,9 @@
     @media all and(min-width: 768px){
         font-size: 7.5rem;
         line-height: 10rem; 
+    }
+    @media all and(min-width: 1200px){
+        font-size: 10rem;
     }
 }
 
@@ -89,9 +96,12 @@
     @media all and(min-width: 768px){
         width: 4.25rem;
         height: 4.5rem;
-
+    }
+    @media all and(min-width: 1200px){
+     margin-top: 3.5rem;;
     }
 } 
+
 &-button:hover {
     transform: translateY(-5px);
      }  

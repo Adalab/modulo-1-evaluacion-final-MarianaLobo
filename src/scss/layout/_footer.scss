@@ -11,10 +11,12 @@ align-items: center;
        align-items: center;
        position: relative;
        padding-bottom: 5rem;
-    }         
+    } 
+ @media all and(min-width:1200px){
+        padding-bottom: 2rem;
+     }       
 
 &-button {
-    
     position: relative;
     margin-top: -20px;
     background-color: $color-wite;
@@ -45,6 +47,9 @@ align-items: center;
     @media all and(min-width:768px){
         text-align: left;
     }
+    @media all and(min-width:1200px){
+        margin-top: 4.5rem;
+    }
 
 }
 &-menu-links {
@@ -55,6 +60,11 @@ align-items: center;
     margin-top: 3rem;
     @media all and(min-width:768px){
         text-align: left;
+        margin-top: 1rem;
+
+    }
+    @media all and(min-width:1200px){
+        margin-top: 0rem;
     }
 }
 
@@ -75,6 +85,10 @@ align-items: center;
     @media all and(min-width:768px){
         order: -3;
         text-align: left;
+        margin-top: 1rem;
+    }
+    @media all and(min-width:1200px){
+        margin-top: 0rem;
     }
 }
 

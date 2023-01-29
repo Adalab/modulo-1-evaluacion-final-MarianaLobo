@@ -8,6 +8,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items:flex-start;
+    @media all and(min-width: 1200px) {
+        margin-top: 5rem;
+        margin-left: 22rem;
+        margin-right: 15rem;
+        margin-bottom: 6rem;
+       
+        
+    }
     
     &-article {
         height: 20%;
@@ -75,6 +83,10 @@
         grid-template-columns: 1fr repeat(3, 22rem) 1fr; 
         grid-template-rows: repeat(3, 13rem);
     } 
+    @media all and(min-width: 1200px) {
+        grid-template-columns: 1fr repeat(3, 35rem) 1fr; 
+        grid-template-rows: repeat(3, 13rem);
+    } 
    
     h3 {
         font-family: $font-titles;
@@ -131,11 +143,6 @@
          }
     } 
 
-    &-container-button {
-        grid-column: 2 / 3;
-        display: flex;
-        justify-content: center;
-    }
 
     &-button { 
         grid-column: 2 / 3;
@@ -153,7 +160,11 @@
         @media all and(min-width:768px){
             margin-top: 2.5rem; 
             grid-column: 3 / 4;
+         }
+         @media all and(min-width: 1200px){
+            margin-left: 8rem;
          }  
+        
     }
       &-button:hover {
     transform: translateY(-5px);
