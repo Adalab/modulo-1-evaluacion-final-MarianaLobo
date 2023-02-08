@@ -79,35 +79,6 @@ text-align: center;
     grid-template-columns: 1fr repeat(3, 35rem) 1fr; 
     grid-template-rows: repeat(3, 13rem);
 } 
-   
-h3 {
-    font-family: $font-titles;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    @media all and(min-width:768px){
-        font-size: 2.4rem;
-        }
-}
-
-p {
-    font-family: $font-text;
-    font-size: 1.8rem;
-    line-height: 3rem;
-    @media all and(min-width:768px){
-        font-size: 2rem;
-        }
-}
-
-&-title {
-    grid-column: 2 / 3;
-    margin-top: 2.9rem;
-    font-family: $font-titles;
-    font-size: 2rem;
-    @media all and(min-width:768px){
-        grid-column: 2 / 5;
-        font-size: 2.8rem;
-        }   
-}
 
 &-article1 {
     grid-column: 2 / 3; 
@@ -130,6 +101,35 @@ p {
         grid-column: 4 / 5; 
         }
 } 
+
+&-title {
+    grid-column: 2 / 3;
+    margin-top: 2.9rem;
+    font-family: $font-titles;
+    font-size: 2rem;
+    @media all and(min-width:768px){
+        grid-column: 2 / 5;
+        font-size: 2.8rem;
+        }   
+}
+   
+&-subtitle {
+    font-family: $font-titles;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    @media all and(min-width:768px){
+        font-size: 2.4rem;
+        }
+}
+
+&-text {
+    font-family: $font-text;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    @media all and(min-width:768px){
+        font-size: 2rem;
+        }
+}
 
 /** BUTTON **/
 &-button { 
