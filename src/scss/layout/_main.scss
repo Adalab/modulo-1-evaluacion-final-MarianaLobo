@@ -57,10 +57,19 @@
     color: $color-orange;
     font-family: $font-text;
     font-size: 2rem;
-    transition: transform 1s
+   /* transition: transform 1s*/
 }
     &-button:hover {
-transform: translateY(-5px);
+        animation-name: color;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        @keyframes color {
+            from {background-color:  $color-white;}
+            to {background-color: $color-orange;}
+            from {color:  $color-orange;}
+            to {color:  $color-white;}
+
+    }
     }
 }
 
@@ -145,7 +154,7 @@ text-align: center;
     font-size: 2rem;
     margin-left: 1rem;
     margin-bottom: 4rem;
-    transition: transform 1s;
+   /* transition: transform 1s;*/
     @media all and(min-width:768px){
         margin-top: 2.5rem; 
         grid-column: 3 / 4;
@@ -155,7 +164,18 @@ text-align: center;
         }    
 }
     &-button:hover {
-transform: translateY(-5px);
+        animation-name: color2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        @keyframes color2 {
+            from {background-color:  $color-orange;}
+            to {background-color: $color-white;}
+            from {color:  $color-white;}
+            to {color:  $color-orange;}
+            from {border:  none;}
+            to {border: 0.2rem solid $color-orange;}
+
+    }
     }
 }
 
